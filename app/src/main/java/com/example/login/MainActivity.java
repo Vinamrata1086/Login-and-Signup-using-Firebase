@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        signout; = findViewById(R.id.signout);
-        signout;.setOnClickListener(new View.OnClickListener() {
+        signout = findViewById(R.id.signout);
+        signout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,Login.class));
